@@ -1,0 +1,45 @@
+- If the old version do not have bug, and the new version have
+--> the bug must be in one of the different parts.
+- The differences between these versions are not too much (compare to each file's size).
+--> Scan through the different parts are much easier than scan the whole new version's file.
+
+2) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+- If I accidentally erased some lines of code, and now want to take it back
+--> go to the previous version.
+- The program have bug that do not appear in previous version that hard to debug
+--> Compare current and previous versions to figure out.
+- Have some issues and want to return to previous version.
+- See the progress of building the program.
+
+3) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros:
+- Commit when and only when make a logical change.
+--> Make more sense, no logical change missed and no commit of an unfinished change.
+- Can give a meaningful message describe the change
+--> Easier to identify and understand changes have made.
+Cons:
+- Make by hand everytime. --> Easy to forget, take more time and effort.
+
+4) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git:
+- One project have multiple files connected, linked with one another.
+--> A logical change involve many files.
+Google Docs:
+- Overal, documents we write in Google Docs are not related and connected to each other
+--> Each logical change involve only one file.
+
+5) How can you use the commands git log and git diff to view the history of files?
+git log:
+Scan over the list of version and look at the message of each commit
+--> We can know the steps that we made to build the project.
+git diff:
+See lines of code added and deleted of certain commit.
+--> Know exactly what we did on that step.
+
+6) How might using version control make you more confident to make changes that could break something?
+- I could do all changes or tests on my code without afraid that it would cause some bug and affect the old parts that were well operational
+--> because if I could not fix these bug myself, I could restore to the previous version with all well operational old parts
+--> and start make change again.
+
+7) Now that you have your workspace set up, what do you want to try using Git for?
+- Using Git for my large projects I'm working on with my teammates in Computer Network and Computer Architecture.
