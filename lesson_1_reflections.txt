@@ -1,3 +1,6 @@
+alias subl="C:/Program Files/Sublime Text 3/sublime_text.exe"
+alias subl="C:/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
+
 - If the old version do not have bug, and the new version have
 --> the bug must be in one of the different parts.
 - The differences between these versions are not too much (compare to each file's size).
