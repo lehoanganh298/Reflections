@@ -22,3 +22,7 @@
 
 5) How do the diagrams help you visualize the branch structure?
 - It help me to know how many branch in the repository, which commits belong to them, and how they link to each other in the branch tree.
+
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- The result will take all the changes (insertions and deletions) in both branches compare to the version when the start to diverge
+- We represent it that way in the diagram because the merged branch is the sum of all changes in both branches.
