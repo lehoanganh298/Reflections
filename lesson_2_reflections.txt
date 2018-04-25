@@ -26,3 +26,11 @@
 6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 - The result will take all the changes (insertions and deletions) in both branches compare to the version when the start to diverge
 - We represent it that way in the diagram because the merged branch is the sum of all changes in both branches.
+
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: To some simple and clear change in each commit 
+	- like add 2 different functions in 2 commits, delete 1 function in both commit
+	--> It's faster and more convenient to merge automatically.
+Cons: Still some cases merging not correct
+	- add 1 function but in different place in each branch --> still automatically combine both.
+	--> Sometimes lead to 2 function implementations both exist.
