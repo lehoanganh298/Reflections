@@ -5,3 +5,5 @@
 - The staging area is colletion of files that prepare to make a commit to the repository.
 - The staging area's files are picked from the working directory.
 --> The staging area help the action of commit become more simple, especially when commit multiple files, when we do not have to list all the files we want to commit.
+
+## Make experimental changes
